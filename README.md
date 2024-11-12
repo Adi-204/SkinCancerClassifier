@@ -45,12 +45,12 @@ The architecture consists of a CNN model built with the following components:
 This multi-stage approach allows the model to learn complex features effectively while minimizing overfitting through dropout regularization.
 
 # Tech Stack and Dependencies
-Python: Programming language for the entire pipeline.
-TensorFlow/Keras: Used to build and train the CNN model.
-OpenCV: For image preprocessing.
-Pandas and NumPy: For data manipulation and handling.
-Matplotlib: To visualize training results.
-Scikit-learn: For metrics and additional machine learning utilities
+1. Python: Programming language for the entire pipeline.
+2. TensorFlow/Keras: Used to build and train the CNN model.
+3. OpenCV: For image preprocessing.
+4. Pandas and NumPy: For data manipulation and handling.
+5. Matplotlib: To visualize training results.
+6. Scikit-learn: For metrics and additional machine learning utilities
 
 # Results
 After training, the model achieved the following performance on the test set:
