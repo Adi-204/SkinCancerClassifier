@@ -52,6 +52,14 @@ Pandas and NumPy: For data manipulation and handling.
 Matplotlib: To visualize training results.
 Scikit-learn: For metrics and additional machine learning utilities
 
+# Results
+After training, the model achieved the following performance on the test set:
+
+1. Accuracy: 78.98%
+2. Precision: 77.82%
+3. Recall: 78.98%
+4. F1 Score: 77.47%
+
 # Conclusion
 Skin cancer diagnosis is a time-sensitive and crucial task. Our deep learning model aims to assist in early diagnosis by accurately classifying skin lesion types, potentially expediting the diagnostic process for healthcare providers. Early detection and classification can save valuable time in treatment planning, providing patients with a better chance for recovery and improved quality of life. This tool can be instrumental for medical institutions aiming to enhance diagnostic efficiency, especially in areas with limited dermatology expertise.
 
@@ -66,4 +74,3 @@ We welcome contributions from the community to enhance SkinCancerClassifier and 
 
 # Contact
 For questions, feedback, or support, please contact us at adiboghawala@gmail.com.
-
