@@ -73,4 +73,4 @@ We welcome contributions from the community to enhance SkinCancerClassifier and 
 
 
 # Contact
-For questions, feedback, or support, please contact us at adiboghawala@gmail.com.
+For questions, feedback, or support, please contact us at adiboghawala@gmail.com. 
