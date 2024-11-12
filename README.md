@@ -16,13 +16,13 @@ The Dataset is too large for the Github Free LFS servers, hence, a link to the o
 https://kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 # Types of Skin Cancer
-Melanocytic Nevi (NV)
-Melanoma (MEL)
-Benign Keratosis-like Lesion (BKL)
-Dermatofibroma (DF)
-Basal Cell Carcinoma (BCC)
-Actinic Keratoses (Akiec)
-Vascular Lesions (Vasc)
+1. Melanocytic Nevi (NV)
+2. Melanoma (MEL)
+3. Benign Keratosis-like Lesion (BKL)
+4. Dermatofibroma (DF)
+5. Basal Cell Carcinoma (BCC)
+6. Actinic Keratoses (Akiec)
+7. Vascular Lesions (Vasc)
 
 # Architecture
 The architecture consists of a CNN model built with the following components:
