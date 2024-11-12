@@ -5,13 +5,13 @@ As skin cancer is one of the most frequent cancers globally, accurate, non-invas
 
 # Dataset
 The model is trained on the HAM10000 dataset, which contains dermoscopic lesion images. Each image is labeled based on histopathological or diagnostic criteria. The dataset includes 10,015 images across the seven classes, with distributions as follows:
-AKIEC: 327 samples
-BCC: 514 samples
-BKL: 1,099 samples
-DF: 115 samples
-MEL: 1,113 samples
-NV: 6,705 samples
-VASC: 142 samples
+1. AKIEC: 327 samples
+2. BCC: 514 samples
+3. BKL: 1,099 samples
+4. DF: 115 samples
+5. MEL: 1,113 samples
+6. NV: 6,705 samples
+7. VASC: 142 samples
 The Dataset is too large for the Github Free LFS servers, hence, a link to the original KAGGLE dataset has been provided:
 https://kaggle.com/kmader/skin-cancer-mnist-ham10000
 
@@ -27,20 +27,20 @@ Vascular Lesions (Vasc)
 # Architecture
 The architecture consists of a CNN model built with the following components:
 
-1 ResNet50 Model: Used as the base model with pre-trained weights.
-2 Classifier Block 1:
+1. ResNet50 Model: Used as the base model with pre-trained weights.
+2. Classifier Block 1:
     Convolutional layers (32 filters, 3x3, ReLU)
     MaxPooling layer (2x2)
     Dropout (0.15)
-3 Classifier Block 2:
+3. Classifier Block 2:
     Convolutional layers (64 filters, 3x3, ReLU)
     MaxPooling layer (2x2)
     Dropout (0.20)
-4 Fully Connected Layers:
+4. Fully Connected Layers:
     Flatten layer
     Dense layer (128 neurons, ReLU)
     Dropout (0.5)
-5 Output Dense layer (Softmax for classification across the seven disease classes)
+5. Output Dense layer (Softmax for classification across the seven disease classes)
 
 This multi-stage approach allows the model to learn complex features effectively while minimizing overfitting through dropout regularization.
 
@@ -58,10 +58,10 @@ Skin cancer diagnosis is a time-sensitive and crucial task. Our deep learning mo
 # Contributing
 We welcome contributions from the community to enhance SkinCancerClassifier and make it even more valuable for users. If you'd like to contribute, please follow these steps:
 
-1 Fork the repository.
-2 Create a new branch for your feature or bug fix.
-3 Commit your changes and push the branch to your fork.
-4 Submit a pull request with a detailed description of your changes.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push the branch to your fork.
+4. Submit a pull request with a detailed description of your changes.
 
 
 # Contact
